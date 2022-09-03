@@ -1,0 +1,15 @@
+<h1>Demo</h1>
+<div id="app"></div>
+<link rel="stylesheet" href="../../dist/style.css">
+<script type="module">
+    import { createApp } from "vue/dist/vue.esm-bundler.js";
+    import SmartyUIVite, { SFCButton, JSXButton, MyButton } from "../../dist/smarty-admin-ui-vite.esm.js";
+
+    createApp({
+        template: `
+      <SButton/>
+      <JSXButton/>
+      <SFCButton/>
+    `}).use(SmartyUIVite).mount('#app')
+
+</script>
