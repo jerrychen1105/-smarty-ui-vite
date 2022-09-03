@@ -5,17 +5,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <script src="../../dist/smarty-ui.esm.js"></script>
 </head>
 <body>
   <h1>Demo</h1>
 <div id="app"></div>
 <script type="module">
     import { createApp } from "vue/dist/vue.esm-bundler.js";
-    import SmartyUIVite, {
+    import SmartyUI, {
         SFCButton,
         JSXButton,
         MyButton,
-    } from "../../dist/smarty-admin-ui-vite.esm.js";
+    } from "../../dist/smarty-ui.esm.js";
 
     createApp({
         template: `
